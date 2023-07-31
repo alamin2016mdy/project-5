@@ -154,15 +154,15 @@ body {
     width: 630px;
     flex-shrink: 0;
     align-self: stretch;
-    background: var(--black-7, #F6F6F6);
+    background:#F6F6F6;
 }
 
 .banner img {
     position: absolute;
     top: 0px;
     right: 50px;
-    width: 378px;
-    height: 496px;
+    width: 300px;
+    height: 400px;
 }
 
 .in-2 {
@@ -193,4 +193,27 @@ button {
     gap: 10px;
     background: var(--black-1, #2F302C);
     color: rgb(255, 255, 255);
+}
+
+.banner .frame h3{
+    position: absolute;
+    top: 160px;
+    left: 80px;
+    font-size: 16px;
+    padding: 4px 8px;
+    background-color: #CE0000;
+    border-radius: 4px;
+    font-weight: 700;
+    color: white;
+}
+
+.banner .frame h1{
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    width: 182px;
+    height: 160px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
 }
